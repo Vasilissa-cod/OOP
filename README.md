@@ -21,3 +21,26 @@
 
 ### 3. В функции main создать 3 разных объекта класса MainPage с помощью 3-х разных конструкторов и выполнить проверку размера для каждого.
 
+---
+
+## Структура проекта
+
+```
+OOP/
+├── src/main/java/
+│   ├── classes/
+│   │   ├── MainPage.java          ← класс для хранения информации о веб-странице
+│   │   ├── Book.java
+│   │   ├── Cat.java
+│   │   ├── NewCat.java
+│   │   ├── TextStatistics.java
+│   │   └── TextStatisticsDemo.java
+│   ├── MainPageDemo.java          ← демонстрация работы MainPage
+│   ├── BookWorld.java
+│   ├── CatWorld.java
+│   └── TextStatisticsDemo.java
+├── build.gradle
+├── settings.gradle
+└── README.md
+```
+
